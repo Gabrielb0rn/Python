@@ -8,3 +8,5 @@ grausCelsius = input("Escreva a temparatura atual em graus Celsius: ")
 resultado = (float(grausCelsius)) * float(1.8) + float(32)
 
 print("Temperatura em Fahrenheit: ", resultado)
+
+# x0

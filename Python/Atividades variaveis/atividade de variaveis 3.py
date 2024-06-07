@@ -6,3 +6,5 @@ Nascimento = input("Digite o ano do seu nascimento: ")
 resultado = (int(2023)) - int(Nascimento)
 
 print("Você tem: ", resultado, "anos")
+
+# x0

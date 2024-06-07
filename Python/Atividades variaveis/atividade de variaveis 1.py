@@ -10,3 +10,5 @@ Endereço = input("Digite o seu endereço: ")
 
 print(" ")
 print("Cliente: ", Nome,", com " , Idade, "anos",",", Nacionalidade, "e","reside no endereço: ", Endereço)
+
+# x0

@@ -6,3 +6,5 @@ numeroUm = input("Digite o primeiro numero: ")
 numeroDois = input("Digite o segundo numero: ")
 resultado = int(numeroUm) * int(numeroDois)
 print("Resultado: ", resultado)
+
+# x0

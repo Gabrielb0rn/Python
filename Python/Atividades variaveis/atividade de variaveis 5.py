@@ -22,3 +22,5 @@ rn = int(100) * int(n) / int(eleitores)
 
 print(" ")
 print("Votos em Y: ", ry, "%", "Votos em X: ", rx, "%", "Brancos: ", rb, "%", "Nulos: ", rn, "%.")
+
+# x0
