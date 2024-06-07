@@ -1,0 +1,72 @@
+
+>>>> Biliotecas Python <<<<
+
+
+(((( Criação de Sites e APIs ))))
+
+Biblioteca Requests: É muito boa para fazer interações entre APIs e interação com sites.
+
+Biblioteca Flask: É um conjunto de bibliotecas/funcionalidades. É uma ferramenta feita para o Python para que você possa criar sites e APIs e é uma ferramenta muita leve. Muito flexível e muito simples de utilizar.
+
+Biblioteca Django: Ele também é utilizado para a criação de sites e APIs. O Django já vem mais pronto, mas é algo um pouco mais complexo, então para quem está começando talvez não seja a melhor opção.
+
+
+(((( Ciência de Dados e Inteligência Artificial ))))
+
+Biblioteca NumPy e Biblioteca Pandas: Essas duas bibliotecas Python permitem trabalhar com dados, tabelas, análises, manipulações de dados. São muito conhecidas para tratamento de dados python, então você provavelmente já deve ter ouvido falar de pelo menos uma das duas.
+
+TensorFlow e Keras: São ferramentas que funcionam muito bem para a criação dos seus modelos de inteligência artificial.
+
+Biblioteca OpenCV: Essa é uma biblioteca para tratamento de imagens, então vai te auxiliar na manipulação tanto de vídeo quanto de imagem. Um exemplo é controlar a sua Webcam utilizando o OpenCV.
+
+Biblioteca Pillow: Essa é uma biblioteca para tratamento de imagens, só que diferente do OpenCV ela é específica para imagens. Um exemplo que temos é utilizar essa biblioteca para converter imagens no Python (converter a extensão de arquivos).
+
+Biblioteca Scikit-learn: É uma biblioteca excelente para modelos de classificação, modelos de regressão, modelos de clustering, entre outras coisas que você queira fazer dentro de inteligência artificial.
+
+Biblioteca NLTK: Essa biblioteca é feita para tratamento de linguagens, análise de sentimento, tratamento de texto, análise de textos, previsão de escrita e outros tipos de linguagem natural.
+
+Biblioteca PyTorch: É uma ferramenta muito boa para deep learning e para acelerar o seu processamento e o processo de construção do seu modelo de inteligência artificial. Mais uma boa opção para tratamento de dados python.
+
+
+(((( Visualização de Dados ))))
+
+Biblioteca Ploty:  Biblioteca gráfica de código aberto gratuita, é construída sobre a biblioteca Plotly JavaScript (plotly.js). Você pode usar para criar visualizações de dados baseadas na web. São mais de 40 tipos de gráficos, inclusive alguns não tão comuns em outras bibliotecas de visualização de dados. Pode ser usado offline.
+
+Biblioteca Matplotlib: É uma das bibliotecas Python para visualização de dados que permite a criação de gráficos e plotagem 2D. É muito útil para uma representação amigável de dados. Você pode usá-la para aplicações matemáticas ou científicas que exigem mais do que eixos únicos na representação gráfica, por exemplo.
+
+Biblioteca Seaborn: É uma das principais bibliotecas python para visualização de dados, pois se baseia em Matplotlib e se integra com as estruturas de dados numpy e pandas. Além das funções de plotagem, executa as funções de agregação estatística e mapeamento para criar gráficos informativos para o usuário. 
+
+
+(((( Automações ))))
+
+Biblioteca Selenium: É muito utilizada quando falamos de automação web, funciona para busca na internet (web scraping) e automações de processos completos. Funciona até mesmo para o preenchimento de formulários!
+
+Biblioteca Scrapy e Beautiful Soup: Também são bibliotecas que vão te ajudar com o web scraping, que é a obtenção de dados da web de forma automática para que você não precise fazer todo o procedimento de forma manual.
+
+Biblioteca PyAutoGUI: É uma biblioteca que permite você automatizar o seu mouse, teclado e a tela do seu computador. Então vai permitir que você faça uma automação de uma atividade repetitiva você tenha que fazer no seu computador. Isso quer dizer que você consegue automatizar qualquer ação dentro do computador independente do programa.
+
+Biblioteca Pyodbc: É uma biblioteca de integração com banco de dados.
+
+Biblioteca Pywin32: Ela te permite automatizar uma série de coisas no Windows, então isso pode te facilitar bastante caso utilize o Windows. Você vai notar que boa parte das empresas utiliza esse sistema operacional, então vai te ajudar nesses casos.
+
+
+(((( Criação de Interfaces Gráficas ))))
+
+Biblioteca Kivy: É uma ferramenta para criação de telas onde as pessoas podem interagir sem precisar visualizar o código por trás. O mesmo código no Kivy funciona em qualquer plataforma, seja Linux, Windows, Mac, IOs ou Android.
+
+Biblioteca Tkinter: É a biblioteca mais simples para poder começar com interfaces gráficas, então para telas simples é a mais recomendada. Ele já vem dentro do Python, então nem vai precisar fazer a instalação.
+
+Biblioteca PyQt5: Também serve para criar telas para os seus programas, mas para programas mais complexos diferente do tkinter que é mais simples.
+
+
+(((( Criação de Jogos Digitais ))))
+
+Biblioteca PyGame: É a biblioteca mais famosa de Python para games. O PyGame é uma biblioteca do Python que estende o SDL (Simple DirectMedia Layer) e funciona como um módulo do Python que fornece uma API para o SDL, além de várias implementações para criações gráficas com foco em jogos. 
+
+Biblioteca Soya3D: É um módulo Python de alto nível para a criação de games em 3D. Multiplataforma, o Soya3D tem como foco desenvolvimento rápido e facilidade de uso. Seu objetivo é permitir que desenvolvedores amadores criem jogos 3D sofisticados inteiramente na linguagem Python. 
+
+Biblioteca Pyxel: É uma biblioteca para criação de jogos retrô. Trata-se de uma engine para desenvolvimento de jogos que segue as limitações dos consoles fictícios PICO-8 e TIC-80. O Pyxel vem com um editor embutido para criação de sprites, tilemaps e efeitos sonoros.
+
+Biblioteca Arcade: É uma bibilioteca fácil de aprender, para criação de jogos 2D. A Arcade é ideal para as pessoas que estão aprendendo a programar, por ser extremamente intuitiva e fácil de usar. 
+
+
