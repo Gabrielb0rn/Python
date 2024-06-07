@@ -1,0 +1,18 @@
+Trocar lâmpada:
+1. comprar uma lâmpada nova
+2. retirar a lâmpada antiga
+    se for alto, pegar uma escada
+3. instalar a lâmpada nova
+4. descartar a lâmpada antiga
+5. testar a lâmpada
+    se não estiver funcionando, refazer todo o processo.
+
+Tomar banho:
+1. Pegar roupas limpas
+2. Pegar uma toalha
+3. Ligar o chuveiro
+4. Lavar o cabelo
+5. Lavar o corpo
+6. Desligar o chuveiro
+7. Se secar
+8. Colocar roupas limpas
