@@ -22,7 +22,7 @@ imagem_nave = pygame.transform.scale(imagem_nave, (70,50))
 class Jogador(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = imagem_nave
+        self.image = imagem_nave  # Use a imagem carregada aqui
         self.rect = self.image.get_rect()
         self.rect.x = largura_tela // 2
         self.rect.y = altura_tela - 50
@@ -83,6 +83,7 @@ clock = pygame.time.Clock()
 
 terminou = False
 
+#loop inicial
 while not terminou:
     
     for evento in pygame.event.get():
@@ -99,7 +100,7 @@ while not terminou:
             elif evento.key == pygame.K_RIGHT and jogador.velocidade_x > 0:
                 jogador.velocidade_x = 0
 
-    # geração dos obstáculos
+    #obstáculos aleatórios
     if random.randint(0, 100) < 2:
         obstaculo = Obstaculo()
         todos_sprites.add(obstaculo)
@@ -126,10 +127,10 @@ while not terminou:
     texto = fonte.render("Pontuação: " + str(pontuacao), True, PRETO)
     tela.blit(texto, [10, 10])
 
-    # atualizar a tela
+    # atualiza a tela
     pygame.display.flip()
 
-    # fps
+    # define a velocidade de atualização do jogo
     clock.tick(60)
     
 pygame.quit()

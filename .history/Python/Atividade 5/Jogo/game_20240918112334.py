@@ -22,7 +22,7 @@ imagem_nave = pygame.transform.scale(imagem_nave, (70,50))
 class Jogador(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = imagem_nave
+        self.image = imagem_nave  # Use a imagem carregada aqui
         self.rect = self.image.get_rect()
         self.rect.x = largura_tela // 2
         self.rect.y = altura_tela - 50
@@ -83,6 +83,7 @@ clock = pygame.time.Clock()
 
 terminou = False
 
+#loop inicial
 while not terminou:
     
     for evento in pygame.event.get():
