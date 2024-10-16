@@ -1,0 +1,82 @@
+import random
+
+def calcular_pontuacao_robo():
+  
+    carta1 = random.randint(1, 10)
+    carta2 = random.randint(1, 10)
+    return carta1 + carta2
+
+fichas = 100
+print("Seja bem-vindo ao jogo de 21! Você tem 100 fichas.")
+
+while fichas > 0:
+    aposta = int(input("Digite o valor que você deseja apostar: "))
+    
+    if aposta > fichas:
+        print("Fichas insuficientes!!")
+        continue  
+
+    numero_secreto = random.randint(1, 10)
+    numero_secreto2 = random.randint(1, 10)
+    soma = numero_secreto + numero_secreto2
+    
+    print(f"Suas cartas são {numero_secreto} e {numero_secreto2} (soma: {soma})")
+
+    while soma <= 21:
+        carta_3 = int(input("Deseja mais uma carta? (Pressione 1 para pedir mais uma carta, 2 para continuar assim ou 3 para split): "))
+        
+        if carta_3 == 1:
+            numero_secreto3 = random.randint(1, 10)
+            soma += numero_secreto3
+            print(f"Você tirou a carta número {numero_secreto3}. Total agora: {soma}")
+            
+            if soma > 21:
+                print("Passou de 21! Você perdeu.")
+                fichas -= aposta  
+                break 
+        elif carta_3 == 2:
+            break
+        elif carta_3 == 3:
+            numero_secretoA = random.randint(1, 10)
+            numero_secretoB = random.randint(1, 10)
+
+            split1 = numero_secreto + numero_secretoA
+            split2 = numero_secreto2 + numero_secretoB
+
+            print(f"Você splitou! Seu primeiro jogo ficou com {split1} e o segundo com {split2}.")
+
+            if split1 > 21 and split2 > 21:
+                print("Você perdeu em ambos os jogos!")
+                fichas -= aposta  
+            else:
+                if split1 <= 21:
+                    print(f"Você ficou com a soma {split1} no primeiro jogo.")
+                else:
+                    print("Você passou de 21 no primeiro jogo.")
+
+                if split2 <= 21:
+                    print(f"Você ficou com a soma {split2} no segundo jogo.")
+                else:
+                    print("Você passou de 21 no segundo jogo.")
+
+            break  
+
+   
+    pontuacao_robo = calcular_pontuacao_robo()
+    print(f"A pontuação do robô é: {pontuacao_robo}")
+
+   
+    if (soma <= 21 and (soma > pontuacao_robo or pontuacao_robo > 21)):
+        print("Parabéns! Você ganhou!")
+        fichas += aposta  
+        fichas += aposta  
+        print(f"Você agora tem {fichas} fichas.")
+    elif soma <= 21:
+        print("Você perdeu! O robô venceu.")
+    else:
+        print("Você passou de 21 e perdeu.")
+
+    if soma <= 21:
+        print("Você ficou com a soma: ", soma)
+
+print("Fim do jogo! Você não tem mais fichas.")
